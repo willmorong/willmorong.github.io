@@ -1,206 +1,25 @@
-* {
-	font-family: monospace;
-}
-
-html {
-	background: linear-gradient(0deg, rgb(138, 136, 129) 0%, rgb(130, 143, 151) 48%, rgb(136, 167, 160) 100%); 
-	background: url('images/cloudwallpaper.avif');
-	background-size: cover;
-}
-
-html, body {
-	width: 100vw;
-	height: 100%;
+html,
+body {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
+	background: rgb(240, 240, 240);
 }
 
-header{
-	background: #f0f0f0;
-	margin: 20px auto;
-	border-radius: 20px;
-	max-width: 800px;
-	box-shadow: 8px 8px 16px #cccccc44, 
-		-8px -8px 16px #ffffff44;
-}
-
-article {
-	background-color: #e5e5f7;
-		background: repeating-linear-gradient(-45deg, #fff490, #fff490 15px, #c0c0c0 15px, #aaaaaa 30px);
-	border-radius: 20px;
-	max-width: 800px;
-	box-shadow: 8px 8px 16px #cccccc44,
-		-8px -8px 16px #ffffff44;
-}
-
-article:hover {
-	background: #eeeeee;
-	background-color: #e5e5f7;
-		background: repeating-linear-gradient(-45deg, #fff490, #fff490 15px, #c0c0c0 15px, #aaaaaa 30px);
-	box-shadow: 6px 6px 18px #ffffff44, 
-		-6px -6px 18px #cccccc44;
-}
-
-#under-construction {
-	font-size: 28pt;
-	text-align: center;
-	padding: 1px;
-}
-
-header h1 {
-	font-weight: bolder;
-	color: #334455;
-	text-shadow: 0 0 4px #fff;
-	text-align: center;
-	padding: 40px 0 0 0;
-}
-
-section {
-	max-width: 600px;
+#container {
+	width: 80%;
+	max-width: 750px;
+	padding: 12px 18px;
 	margin: 10px auto;
-	padding: 20px;
+	color: rgb(25, 25, 25);
+	font-family: "Ledger", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-#icon-list {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: stretch;
-	width: 100%;
-	box-sizing: border-box;
-	padding: 0;
+header {
+	border-bottom: 2px dashed rgb(25, 25, 25);
 }
 
-#linkedin-link-text {
-	color: #0A66C2;
-}
-
-#github-link-text {
-	color: #34641f;
-}
-
-#resume-link-text {
-	color: #993322;
-}
-
-#magicbutton-text {
-	color: #ffffff;
-	text-shadow: #000000 2px 2px;
-}
-
-#icon-list #magicbutton {
-	background: rgb(51, 170, 255);
-	background: radial-gradient(circle, rgba(51, 170, 255, 1) 0%, rgba(216, 0, 255, 1) 25%, rgba(255, 187, 0, 1) 50%, rgba(137, 244, 58, 1) 75%, rgba(0, 255, 199, 1) 100%);
-}
-
-#icon-list li {
-	flex:25%;
-	display: flex;
-	flex-direction: row;
-	margin: 10px;
-	padding: 10px;
+ul {
 	list-style-type: none;
-	box-shadow: inset 8px 8px 16px #ffffff44, 
-		inset -8px -8px 16px #cccccc44;
-	
-	border-radius: 10px;
-	background: #dddddd22;
-}
-
-#icon-list li:hover {
-	background: #00000005;
-	box-shadow: inset 8px 8px 16px #cccccc44, 
-		inset -8px -8px 16px #ffffff44;
-}
-
-#icon-list a {
-	display: flex;
-	width: 100%;
-	height: 100%;
-	align-items: center;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-#icon-list img {
-	width: 30px;
-	height: 30px;
-	margin: 8px;
-}
-
-#icon-list p {
-	width: 100%;
-	font-size: 14pt;
-}
-
-#balloon-container {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	pointer-events: none;
-	display: none;
-	/* Prevent interaction with the balloons */
-}
-
-#balloon-container:target {
-	display: block;
-}
-
-.balloon {
-	position: absolute;
-	bottom: -100px;
-	left: -10vw;
-	/* Start below the viewport */
-	width: 150px;
-	height: 150px;
-	background-image: url('images/balloon.png');
-	background-size: cover;
-	animation: floatUpwards linear infinite;
-	z-index: -1;
-}
-
-/* Different speeds for different balloons */
-.balloon:nth-child(1) {
-	left: 0%;
-	animation-duration: 10s;
-}
-
-.balloon:nth-child(2) {
-	left: 20%;
-	animation-duration: 15s;
-	filter: hue-rotate(35deg);
-}
-
-.balloon:nth-child(3) {
-	left: 50%;
-	animation-duration: 12s;
-	filter: hue-rotate(90deg);
-}
-
-.balloon:nth-child(4) {
-	left: 70%;
-	animation-duration: 20s;
-	filter: hue-rotate(215deg);
-}
-
-.balloon:nth-child(5) {
-	left: 90%;
-	animation-duration: 18s;
-	filter: hue-rotate(70deg);
-}
-
-@keyframes floatUpwards {
-	0% {
-		transform: translateY(0) translateX(-5vw) rotate(0deg);
-		opacity: 1;
-	}
-
-	100% {
-		transform: translateY(-110vh) translateX(5vw) rotate(-30deg);
-		opacity: 0.5;
-	}
 }
