@@ -1,25 +1,102 @@
-html,
-body {
-	margin: 0;
-	padding: 0;
-	background: rgb(240, 240, 240);
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
 }
 
-#container {
-	width: 80%;
-	max-width: 750px;
-	padding: 12px 18px;
-	margin: 10px auto;
-	color: rgb(25, 25, 25);
-	font-family: "Ledger", serif;
-	font-weight: 400;
-	font-style: normal;
+html{
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+body {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1rem;
+	line-height: 1.5;
 }
 
 header {
-	border-bottom: 2px dashed rgb(25, 25, 25);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0;
+	padding-top: 1rem;
 }
 
-ul {
-	list-style-type: none;
+header h1 {
+	margin-bottom: 0;
+	font-weight: 300;
+}
+
+nav {
+	margin: 0.5rem;
+}
+
+nav ul {
+	display: flex;
+	gap: 1.5rem;
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.project {
+	margin: 1rem 0.5rem;
+}
+
+.project h4 {
+	margin-bottom: 0.35rem;
+}
+
+.project p {
+	margin-top: 0;
+}
+
+.project-screenshots {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	gap: 0.75rem;
+	overflow-x: auto;
+	padding-bottom: 0.25rem;
+	--screenshot-row-height: 12rem;
+}
+
+.project-screenshots img {
+	display: block;
+	width: auto;
+	max-height: var(--screenshot-row-height);
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background: #f8f8f8;
+	object-fit: cover;
+}
+
+.project-screenshots--wide img {
+	flex: 0 0 auto;
+	max-width: 75vw;
+	aspect-ratio: 900 / 626;
+}
+
+.project-screenshots--picasso img {
+	flex: 0 0 auto;
+	max-width: 75vw;
+	aspect-ratio: 900 / 557;
+}
+
+.project-screenshots--phone img {
+	flex: 0 0 auto;
+	max-width: 30vw;
+	aspect-ratio: 9 / 16;
 }

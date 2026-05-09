@@ -1,3 +1,3 @@
 # My Personal Site
 
-View it live at [https://morong.dev/](https://morong.dev)
+Live at [https://willmorong.com](https://willmorong.com)

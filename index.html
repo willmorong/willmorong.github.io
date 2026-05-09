@@ -1,60 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<link href="index.css" rel="stylesheet" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Will Morong</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
-		<div id="container">
-			<header>
-				<h1>Will Morong</h1>
-			</header>
+		<header>
+			<h1>Will Morong</h1>
 			<nav>
-				<ul id="icon-list">
-					<li>
-						<a href="https://linkedin.com/in/willmorong" id="linkedin-link-text">
-							<p>linkedin</p>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/willmorong" id="github-link-text">
-							<p>github</p>
-						</a>
-					</li>
-					<li>
-						<a href="resume.pdf" id="resume-link-text">
-							<p>resume</p>
-						</a>
-					</li>
-					<!--
-						<li>
-							<a href="" id="blogposts-link-text">
-								<p>blogposts</p>
-							</a>
-						</li>
-						-->
+				<ul>
+					<li><a href="https://linkedin.com/in/willmorong">LinkedIn</a></li>
+					<li><a href="https://github.com/willmorong">GitHub</a></li>
+					<li><a href="mailto:me@willmorong.com">Email</a></li>
+					<li><a href="resume.pdf">CV / Resumé</a></li>
 				</ul>
 			</nav>
-			<h3>Projects</h3>
-			<ul>
-				<li>
-					<strong>Guppy</strong>
-					<p>A gameboy emulator written in Rust.</p>
-				</li>
-				<li>
-					<strong>Billybot</strong>
-					<p>A discord bot written in Python. It can chat with users using an LLM, play
-						YouTube videos in a voice call, and roll a dice.
-					</p>
-				</li>
-				<li>
-					<strong></strong>
-				</li>
-			</ul>
-		</div>
+		</header>
+		<section>
+			<h1>Projects</h1>
+			<article class="project">
+				<h4><a href="https://github.com/willmorong/stuffchat">stuffchat</a></h4>
+				<p>
+					A self-hosted Discord/Slack-style chat app built with Rust, Actix, SQLite,
+					and plain HTML/CSS/JS. It supports public and private channels, file
+					sharing, voice calls, multi-person screen sharing, message search, custom
+					emojis, replies, edits, synced listening-party playlists, invites, and even
+					iOS push notifications through an APNS relay (this last feature is invite 
+					only because I run the relay). 
+				</p>
+				<div class="project-screenshots project-screenshots--wide">
+					<img src="images/stuffchat_ex1.webp" alt="StuffChat conversation view" loading="lazy" width="900" height="626">
+					<img src="images/stuffchat_ex2.webp" alt="StuffChat call and media view" loading="lazy" width="900" height="626">
+				</div>
+			</article>
+			<article class="project">
+				<h4><a href="https://github.com/willmorong/Lion">Lion</a></h4>
+				<p>
+					An Android client for Magic Wormhole written in Kotlin. I made this to send apks and config files to my friends while
+					setting up our AYN Thors, because we were having problems with existing
+					apps like Croc not completing the file transfers. 
+				</p>
+				<div class="project-screenshots project-screenshots--phone">
+					<img src="images/lion_ex1.png" alt="Lion Android app receive screen" loading="lazy" width="1080" height="1920">
+					<img src="images/lion_ex2.png" alt="Lion Android app file transfer screen" loading="lazy" width="1080" height="1920">
+					<img src="images/lion_ex3.png" alt="Lion Android app pairing code screen" loading="lazy" width="1080" height="1920">
+				</div>
+			</article>
+			<article class="project">
+				<h4>Picasso (no repo)</h4>
+				<p>
+					A PBR raytracer I made in Rust. I started by following <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">Ray Tracing in One Weekend</a> and added multicore tiled/scanline rendering and a BVH accelerator. I'd like to reimplement the raytracer in WebGPU next so it can run in realtime with more than a few samples per pixel.
+				</p>
+				<div class="project-screenshots project-screenshots--picasso">
+					<img src="images/picasso_ex1.webp" alt="Picasso raytracer render of a scene with spheres and boxes" loading="lazy" width="900" height="557">
+					<img src="images/picasso_ex2.webp" alt="Picasso raytracer render of a scene with a bunny and a dragon model" loading="lazy" width="900" height="557">
+				</div>
+			</article>
+		</section>
 	</body>
 </html>
