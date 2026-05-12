@@ -79,7 +79,6 @@ a:hover {
 	max-height: var(--screenshot-row-height);
 	border: 1px solid #ddd;
 	border-radius: 8px;
-	background: #f8f8f8;
 	object-fit: cover;
 }
 
@@ -99,4 +98,20 @@ a:hover {
 	flex: 0 0 auto;
 	max-width: 30vw;
 	aspect-ratio: 9 / 16;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #141414;
+		color: white;
+		color-scheme: dark;
+	}
+
+	a {
+		color: orange;
+	}
+
+	.project-screenshots img {
+		border-color: #333;
+	}
 }
