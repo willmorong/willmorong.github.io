@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="150"
+   height="150"
+   viewBox="0 0 150 150"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="favicon.svg"
+   inkscape:export-filename="favicon.png"
+   inkscape:export-xdpi="92.160004"
+   inkscape:export-ydpi="92.160004"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#2c2c2c"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="3.392456"
+     inkscape:cx="65.734088"
+     inkscape:cy="66.02886"
+     inkscape:window-width="1470"
+     inkscape:window-height="919"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter33"
+       x="-0.071718641"
+       y="-0.062110167"
+       width="1.1434373"
+       height="1.1673524">
+      <feFlood
+         result="flood"
+         in="SourceGraphic"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         id="feFlood32" />
+      <feGaussianBlur
+         result="blur"
+         in="SourceGraphic"
+         stdDeviation="3.000000"
+         id="feGaussianBlur32" />
+      <feOffset
+         result="offset"
+         in="blur"
+         dx="0.000000"
+         dy="5.000000"
+         id="feOffset32" />
+      <feComposite
+         result="comp1"
+         operator="in"
+         in="flood"
+         in2="offset"
+         id="feComposite32" />
+      <feComposite
+         result="comp2"
+         operator="over"
+         in="SourceGraphic"
+         in2="comp1"
+         id="feComposite33" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(13.5,17.038475)"
+     style="filter:url(#filter33)">
+    <g
+       id="g33">
+      <g
+         id="g1"
+         transform="translate(11.303845)"
+         style="stroke:none;stroke-opacity:1">
+        <rect
+           style="fill:#d5e5ff;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1"
+           width="12"
+           height="60"
+           x="43.30127"
+           y="-25"
+           transform="rotate(30)" />
+        <rect
+           style="fill:#80b3ff;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1-9"
+           width="12"
+           height="60"
+           x="77.942291"
+           y="-45"
+           transform="rotate(30)" />
+        <rect
+           style="fill:#aaccff;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1-6"
+           width="12"
+           height="60"
+           x="-43.641014"
+           y="25.196152"
+           transform="matrix(-0.8660254,0.5,0.5,0.8660254,0,0)" />
+        <rect
+           style="fill:#f9f9f9;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1-6-2"
+           width="12"
+           height="60"
+           x="-9"
+           y="5.1961527"
+           transform="matrix(-0.8660254,0.5,0.5,0.8660254,0,0)" />
+      </g>
+      <g
+         id="g1-8"
+         transform="matrix(1,0,0,-1,11.303845,115.92305)"
+         style="stroke:none;stroke-opacity:1">
+        <rect
+           style="fill:#ffe6d5;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1-1"
+           width="12"
+           height="60"
+           x="43.30127"
+           y="-25"
+           transform="rotate(30)" />
+        <rect
+           style="fill:#ffb380;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1-9-5"
+           width="12"
+           height="60"
+           x="77.942291"
+           y="-45"
+           transform="rotate(30)" />
+        <rect
+           style="fill:#ffccaa;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1-6-3"
+           width="12"
+           height="60"
+           x="-43.641014"
+           y="25.196152"
+           transform="matrix(-0.8660254,0.5,0.5,0.8660254,0,0)" />
+        <rect
+           style="fill:#f9f9f9;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1-6-2-5"
+           width="12"
+           height="60"
+           x="-9"
+           y="5.1961527"
+           transform="matrix(-0.8660254,0.5,0.5,0.8660254,0,0)" />
+      </g>
+    </g>
+  </g>
+</svg>
