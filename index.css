@@ -46,6 +46,10 @@ a {
 	color: blue;
 }
 
+p a {
+	text-decoration: underline;
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -54,7 +58,8 @@ a:hover {
 	margin: 1rem 0.5rem;
 }
 
-.project h4 {
+.project h2 {
+	font-size: large;
 	margin-bottom: 0.35rem;
 }
 
@@ -84,13 +89,13 @@ a:hover {
 .project-screenshots--wide img {
 	flex: 0 0 auto;
 	max-width: 75vw;
-	aspect-ratio: 900 / 626;
+	aspect-ratio: 900 / 600;
 }
 
 .project-screenshots--picasso img {
 	flex: 0 0 auto;
 	max-width: 75vw;
-	aspect-ratio: 900 / 557;
+	aspect-ratio: 900 / 526;
 }
 
 .project-screenshots--phone img {
